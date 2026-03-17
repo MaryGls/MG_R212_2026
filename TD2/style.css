@@ -1,0 +1,83 @@
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #333;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color:burlywood;
+  padding: 1rem;
+}
+
+.hero {
+  background-color:burlywood;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+
+main {
+  max-width: 60ch;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+section {
+  margin-top: 2rem;
+} 
+
+#pourquoi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+#pourquoi article {
+  width: 30%;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+#temoignages {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+#temoignages article {
+  flex: 1;
+}
+
+blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 1rem;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+#contact {
+  background-color:burlywood;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
